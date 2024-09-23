@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  padding: 60px 100px;
+  overflow-x: hidden;
+}
+
+.title {
+  padding: 20px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+
+.container .card {
+  width: 100%;
+  display: flex;
+}
+
+.container .card-left {
+  justify-content: flex-start;
+}
+
+.container .card-right {
+  justify-content: flex-end;
+}
+
+.container .box {
+  width: 40%;
+  aspect-ratio: 2 / 1;
+  border: 5px solid #fff;
+  background-color: #202746;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .box h1 {
+  color: #fff;
+}
